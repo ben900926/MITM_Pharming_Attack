@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3.8
 # (note: please be careful with line-endings: you should use LF)
 from scapy.all import ARP, Ether, srp
 import scapy.all as Scapy

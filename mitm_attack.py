@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # (note: please be careful with line-endings: you should use LF)
 from scapy.all import ARP, Ether, srp
-import scapy.all as Scapy
+import scapy.all as Scapy   
 # for sleeping
 import time 
 import netifaces

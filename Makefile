@@ -25,7 +25,7 @@ mitm_attack: mitm_attack.py
 	openssl genrsa -out ca.key 4096
 	openssl req -new -x509 -days 1826 -key ca.key -out ca.crt
 	sudo sslsplit -d -l connections.log -j $(SSLSPLIT) -S $(LOGDIR) -k ca.key -c ca.crt ssl 0.0.0.0 8443 tcp 0.0.0.0 8080 &
-	cp $@ $^
+	cp $^ $@
 	chmod u+x $@
 
 pharm_attack: pharm_attack.py
