@@ -20,7 +20,7 @@ Open NYCU e3 login.php
 then enter username and password
 
 #### Pharm attack
-Using 無痕模式 firefox, connect to the folliwing link in victim VM:
+Using 無痕模式 firefox, connect to the following link in victim VM:
 
 ```
 www.nycu.edu.tw
